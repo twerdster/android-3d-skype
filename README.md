@@ -5,33 +5,31 @@
 </p>
 
 ![Platform: Android tablet + Kinect](https://img.shields.io/badge/platform-Android%20tablet%20%2B%20Kinect-lightgrey)
-![Source: not yet located](https://img.shields.io/badge/source-not%20yet%20located-lightgrey)
+![Source: not recovered](https://img.shields.io/badge/source-not%20recovered-lightgrey)
 ![Archive: historical student project](https://img.shields.io/badge/archive-historical%20student%20project-informational)
 
-Real-time Kinect depth streaming to an Android tablet, with Vuforia marker tracking to place the reconstructed scene in augmented reality.
+A historical project for streaming Kinect depth data to an Android tablet and placing reconstructed content in a marker-tracked augmented-reality view.
 
 Students: Raafat Francis, Hashem Naara.
 
 Supervision: Aaron Wetzler.
 
-## Status
+## Available materials
 
-**Coming soon.** This repository is being prepared as a historical student-project archive. Original source code, project documents and build instructions will be added as they are recovered and reviewed. It is not yet a runnable release.
+This repository contains the archived project image, project description and credits. No application source, executable, project report or build configuration has been recovered for publication here.
 
-## Original code
+The archived project description identifies Kinect depth input, streaming to an Android tablet, and Vuforia marker tracking to place the reconstructed scene in a camera view. The image shows a cartoon overlay on a square marker; it does not show depth streaming or a reconstructed depth scene. Without the implementation, the stream format, reconstruction steps, SDK versions and latency cannot be established from this repository.
 
-Original application source has not been located for this archive yet. This does not mean the code no longer exists; it will be added under `source/` only after it is recovered and reviewed.
+## Use and validation
 
-## Running
-
-No runnable source has been published in this repository yet. Platform requirements and setup instructions will be recorded from the original project files rather than guessed.
+There is no software to install or run from this repository. The platform badge records the historical hardware, not a tested current configuration. No build, streaming test, tracking evaluation or current device compatibility check has been performed. Use the website link below for the original project record.
 
 ## Links
 
 - [Project entry on Aaron Wetzler's website](https://twerdster.github.io/#ar-3d-skype-to-android)
 
-## Attribution and Updates
+## Attribution and reuse
 
-Original student and third-party attribution will be retained. No license for unrecovered source code is implied by this README. Original authors can open an issue to contribute updates or request corrections or removal of their material.
+The credits above follow the archived project page. No license for unrecovered source code is implied by this README. Original authors can open an issue to contribute updates or request corrections or removal of their material.
 
 Figure provenance: `assets/project-preview.jpg` is the original student-project image from the archived project page on Aaron Wetzler's website, copied without modification. Any third-party characters shown remain the property of their owners.
