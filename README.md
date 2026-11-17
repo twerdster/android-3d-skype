@@ -4,32 +4,34 @@
   <img src="assets/project-preview.jpg" alt="Samsung Android tablet showing an outdoor night scene with a cartoon figure overlaid on a square fiducial marker" width="280">
 </p>
 
+*Original project image, unchanged.*
+
+This project explored sending Kinect depth data to an Android tablet and placing the reconstructed content in the tablet's camera view, anchored to a tracked marker.
+
+Students: Raafat Francis, Hashem Naara. Supervision: Aaron Wetzler.
+
 ![Platform: Android tablet + Kinect](https://img.shields.io/badge/platform-Android%20tablet%20%2B%20Kinect-lightgrey)
 ![Source: not recovered](https://img.shields.io/badge/source-not%20recovered-lightgrey)
 ![Archive: historical student project](https://img.shields.io/badge/archive-historical%20student%20project-informational)
 
-A historical project for streaming Kinect depth data to an Android tablet and placing reconstructed content in a marker-tracked augmented-reality view.
+## Original
 
-Students: Raafat Francis, Hashem Naara.
+Only the project image and description survive. The application source, report and build configuration have not been recovered, so the original app cannot be built or run. The [recovery notes](docs/RECOVERY.md) record historical requirements, sources and attribution.
 
-Supervision: Aaron Wetzler.
+## Updated
 
-## Available materials
+[**Run the browser demo**](https://twerdster.github.io/android-3d-skype/)
 
-This repository contains the archived project image, project description and credits. No application source, executable, project report or build configuration has been recovered for publication here.
+A separate browser demo, written in November 2026, illustrates the idea with generated data. You can sample a synthetic depth surface, rotate the resulting point cloud, drag a marker anchor into place and export the frame. It uses no Kinect stream or camera, does not track a marker and does not reproduce the historical app. The recovered original files are unchanged.
 
-The archived project description identifies Kinect depth input, streaming to an Android tablet, and Vuforia marker tracking to place the reconstructed scene in a camera view. The image shows a cartoon overlay on a square marker; it does not show depth streaming or a reconstructed depth scene. Without the implementation, the stream format, reconstruction steps, SDK versions and latency cannot be established from this repository.
+### Run locally
 
-## Use and validation
+```sh
+python3 -m http.server 8000 --directory docs
+```
 
-There is no software to install or run from this repository. The platform badge records the historical hardware, not a tested current configuration. No build, streaming test, tracking evaluation or current device compatibility check has been performed. Use the website link below for the original project record.
+Then open http://localhost:8000. No build step or external service is required.
 
-## Links
+### Checks and licensing
 
-- [Project entry on Aaron Wetzler's website](https://twerdster.github.io/#ar-3d-skype-to-android)
-
-## Attribution and reuse
-
-The credits above follow the archived project page. No license for unrecovered source code is implied by this README. Original authors can open an issue to contribute updates or request corrections or removal of their material.
-
-Figure provenance: `assets/project-preview.jpg` is the original student-project image from the archived project page on Aaron Wetzler's website, copied without modification. Any third-party characters shown remain the property of their owners.
+Browser-check results, implementation notes and limits are in [updated/README.md](updated/README.md). These checks apply only to the new demo; they do not validate the historical application or any hardware. The [MIT license](docs/DEMO-LICENSE.txt) covers only the new demo; original materials keep their existing attribution and terms.

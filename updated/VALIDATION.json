@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-17",
+  "implementation": "New independent JavaScript/Canvas browser demo",
+  "browser": "Chromium 157.0.8103.79",
+  "coverage": "Headless desktop interaction and 390-pixel responsive layout; synthetic/local examples only",
+  "assertions": [
+    {
+      "label": "meaningful document title",
+      "passed": true
+    },
+    {
+      "label": "scope and synthetic-data notice visible",
+      "passed": true
+    },
+    {
+      "label": "sampling reduces generated point count",
+      "passed": true
+    },
+    {
+      "label": "16-bit depth payload matches sample count",
+      "passed": true
+    },
+    {
+      "label": "quantization control reaches selected step",
+      "passed": true
+    },
+    {
+      "label": "reset restores marker placement",
+      "passed": true
+    },
+    {
+      "label": "JSON export parses successfully",
+      "passed": true
+    },
+    {
+      "label": "no JavaScript page errors",
+      "passed": true
+    },
+    {
+      "label": "demo requests only its local static files",
+      "passed": true
+    },
+    {
+      "label": "mobile layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "depth-panel click does not move tablet marker",
+      "passed": true
+    },
+    {
+      "label": "dragged marker stays within tablet bounds",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "failed": 0,
+  "not_tested": [
+    "Historical application build or native SDK execution",
+    "Real sensors, camera capture or hardware accuracy",
+    "Physical mobile browsers, Safari or Firefox"
+  ],
+  "original_commit": "016b81519253c67384484c143d54ef7e7e58416a"
+}
